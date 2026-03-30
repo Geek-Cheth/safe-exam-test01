@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────
+#  EXAM SERVER — ENVIRONMENT CONFIGURATION
+#  ⚠️  NEVER commit this file to Git / version control
+# ─────────────────────────────────────────────
+
+# Server
+PORT=3000
+NODE_ENV=production
+
+# SEB Security
+SEB_QUIT_PASSWORD=Exam@2026!
+SEB_SETTINGS_PASSWORD=Admin@2026!
+
+# Exam Config
+EXAM_TITLE=General Knowledge Assessment
+EXAM_DURATION_MINUTES=30
+EXAM_TOTAL_MARKS=100
+EXAM_PASS_MARK=40
+
+# ─────────────────────────────────────────────
+#  QUESTIONS & ANSWERS
+#  Format: QUESTION_n=Question text
+#          OPTIONS_n=Option A|Option B|Option C|Option D
+#          ANSWER_n=0   (0-indexed: 0=A, 1=B, 2=C, 3=D)
+# ─────────────────────────────────────────────
+
+QUESTION_1=Which planet in our solar system has the most known moons?
+OPTIONS_1=Jupiter|Saturn|Uranus|Neptune
+ANSWER_1=1
+
+QUESTION_2=What is the chemical symbol for gold?
+OPTIONS_2=Ag|Go|Au|Gd
+ANSWER_2=2
+
+QUESTION_3=In what year did the World Wide Web become publicly available?
+OPTIONS_3=1983|1989|1991|1995
+ANSWER_3=2
+
+QUESTION_4=Which country is home to the ancient city of Petra?
+OPTIONS_4=Egypt|Jordan|Iraq|Saudi Arabia
+ANSWER_4=1
+
+QUESTION_5=What is the speed of light in a vacuum (approximately)?
+OPTIONS_5=300,000 km/s|150,000 km/s|450,000 km/s|200,000 km/s
+ANSWER_5=0
+
+QUESTION_6=Which programming language was created by Guido van Rossum?
+OPTIONS_6=Ruby|Java|Python|Perl
+ANSWER_6=2
+
+QUESTION_7=The Great Barrier Reef is located off the coast of which country?
+OPTIONS_7=New Zealand|Indonesia|Philippines|Australia
+ANSWER_7=3
+
+QUESTION_8=What is the smallest prime number?
+OPTIONS_8=0|1|2|3
+ANSWER_8=2
+
+QUESTION_9=Which element has the atomic number 1?
+OPTIONS_9=Helium|Lithium|Hydrogen|Oxygen
+ANSWER_9=2
+
+QUESTION_10=Who wrote the play Hamlet?
+OPTIONS_10=Christopher Marlowe|William Shakespeare|Ben Jonson|John Webster
+ANSWER_10=1
