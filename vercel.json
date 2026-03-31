@@ -8,7 +8,7 @@
                     "value": "vps-control.chethina.me"
                 }
             ],
-            "destination": "https://your-vps-ip-or-domain:8080",
+            "destination": "https://https://46.250.237.193:2053/",
             "permanent": true
         }
     ]
