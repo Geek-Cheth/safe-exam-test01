@@ -1,0 +1,15 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "vps-control.chethina.me"
+                }
+            ],
+            "destination": "https://your-vps-ip-or-domain:8080",
+            "permanent": true
+        }
+    ]
+}
